@@ -1,0 +1,6 @@
+{
+    "points": [
+        { "sanity" : 10 },
+        { "greeting" : 10 }
+    ]
+}
