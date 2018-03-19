@@ -120,5 +120,5 @@ if noninteractive:
     if len(bads) == 0:
         print("All tests passed! Huzzah!")
     else:
-        print(len(bads), "failed tests:", ", ".join(bads))
+        print("{} failed tests: {}".format(len(bads), ", ".join(bads)))
 print (str(grade))
