@@ -37,7 +37,7 @@ except(e):
 noninteractive = False # default to interactive mode
 for opt, arg in opts:
     if opt == '-n':
-        print("Non-interactive mode engaged. Hello, Computer! Disabling yucky colors...")
+        print("Non-interactive mode engaged.")
         noninteractive = True # means supress color
 binary = args[0]
 
